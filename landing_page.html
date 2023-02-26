@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnyBank</title>
+    <link rel="stylesheet" href="ldp.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+        <img src="icon_hb.png" alt="menu-hamburguer" style="height: 33px;"width="38px;" onclick="clickMenu()">
+    </div>
+    <ul id="itens">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Depósitos</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+
+  </header>
+
+  <nav>
+    <section>
+       
+        <div id="container">
+            <button type="button" class="btn">Cadastrar</button>
+            <button type="button" class="btn">Login</button>
+        </div>
+        <div>
+            <h2>
+                AnyBank
+            </h2>
+            <p>
+                Lorem Ipsum is simply <strong> dummy text of the printing and 
+                typesetting industry.</strong> <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer <br>
+                 took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and 
+                typesetting industry. <br> <strong>Lorem Ipsum has been the industry's </strong> standard dummy text ever since the 1500s,
+                 when an unknown printer <br>
+                 took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <button type="button" class="btn_2">Leia mais...</button>
+        </div>
+    </section>
+  </nav>
+  <footer>
+    <div class="rdp">
+        <h3>
+            &copy;ArthurFormiga
+        </h3>
+    </div>
+  </footer>
+</body>
+<script>
+   function clickMenu(){
+    
+    if(itens.style.display=='block'){
+
+        itens.style.display='none'
+    }else{
+
+        itens.style.display='block'
+    }
+   }
+</script>
+</html>

@@ -1,0 +1,25 @@
+@media screen and (max-width:639px){
+    
+    .bar{
+        margin-top: 85%;
+        margin-left:55%;
+    }
+
+    .btn{
+        padding: 1%;
+        width: auto;
+        margin-top: -5%;
+    }
+    .btn_2{
+        width: auto;
+        padding: 1%;
+    }
+
+    p{
+        font-size: small;
+    }
+
+    footer{
+        line-height: 100px;
+    }
+}
